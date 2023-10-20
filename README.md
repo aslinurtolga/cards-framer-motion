@@ -2,7 +2,7 @@ My Portfolio Next.js
 
 ## Visulation of the Website
 
-![image](../src/assets/card-img.JPG)
+![image](../src/assets/card-img.jpg)
 
 ## Description
 
