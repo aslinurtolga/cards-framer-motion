@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import city1 from "../src/assets/city1.png";
-import city2 from "../src/assets/city2.png";
-import city3 from "../src/assets/city3.png";
-import planet1 from "../src/assets/planet1.png";
-import planet2 from "../src/assets/planet2.png";
+import city1 from "../src/assets/SpaceCity.jpg";
+import city2 from "../src/assets/SpaceCity2.jpeg";
+import city3 from "../src/assets/SpaceCity3.jpeg";
+import planet1 from "../src/assets/SpaceOrange1.jpeg";
+import planet2 from "../src/assets/SpaceOrange2.jpeg";
 
 const OpenCard = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);
@@ -32,7 +32,7 @@ const OpenCard = () => {
     "This is a description, write whatever you need here, this is just text for a test",
   ];
   return (
-    <section className="py-16 pb-[300px] bg-gradient-to-r from-purple-800 to-indigo-800">
+    <section className="py-16 pb-[300px] bg-gradient-to-r from-sky-700 to-amber-700">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="text-3xl font-extrabold text-white">
           Featured Projects
